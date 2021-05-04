@@ -1,10 +1,10 @@
-exports.handler = async function (event, context) {
+exports.handler = async function () {
     return {
         statusCode: 200,
         body: JSON.stringify({
             name: 'Heropy',
             age: 85,
-            email: 'hansh812@naver.com'
+            email: 'thesecon@gmail.com'
         })
     }
 }

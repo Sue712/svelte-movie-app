@@ -1,8 +1,8 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/vscode,webstorm,node,dotenv
-# Edit at https://www.toptal.com/developers/gitignore?templates=vscode,webstorm,node,dotenv
+# Created by https://www.toptal.com/developers/gitignore/api/webstorm,vscode,dotenv,node
+# Edit at https://www.toptal.com/developers/gitignore?templates=webstorm,vscode,dotenv,node
 
 build/
+.idea
 
 ### dotenv ###
 .env
@@ -63,9 +63,6 @@ typings/
 # Optional eslint cache
 .eslintcache
 
-# Optional stylelint cache
-.stylelintcache
-
 # Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/
@@ -96,14 +93,6 @@ typings/
 .nuxt
 dist
 
-# Storybook build outputs
-.out
-.storybook-out
-storybook-static
-
-# rollup.js default build output
-dist/
-
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
@@ -127,10 +116,6 @@ dist/
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
-
-# Temporary folders
-tmp/
-temp/
 
 ### vscode ###
 .vscode/*
@@ -243,4 +228,4 @@ fabric.properties
 # https://plugins.jetbrains.com/plugin/12206-codestream
 .idea/codestream.xml
 
-# End of https://www.toptal.com/developers/gitignore/api/vscode,webstorm,node,dotenv
+# End of https://www.toptal.com/developers/gitignore/api/webstorm,vscode,dotenv,node
